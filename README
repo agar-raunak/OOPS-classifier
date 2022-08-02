@@ -1,0 +1,19 @@
+#--------------------------------------------
+#   Name: Raunak Agarwal
+#   ID: 1636678
+#   CMPUT 274, Fall 2020
+#
+#   Assignment #1: ooclassifier
+#-------------------------------------------- 
+
+Files Included:
+-ooclassifierbase.py
+-README
+
+Methods added:
+- preprocess in TrainingSet
+- preprocess_words, lower_case, punc_rem, dig_rem, stop_rem in TrainingInstance
+-return_nfolds,add_fold_lin, add_fold, copy in TrainingSet
+
+Classes added:
+- ClassifyByTopN: Subclass of ClassifyByTarget.
